@@ -12,6 +12,7 @@ import About from "./Pages/About";
 import Portfolio from "./Pages/Portfolio";
 import Hire from "./Pages/Hire";
 import RootLayout from "./Layouts/RootLayout";
+import Contact from "./Layouts/Conatct/contact";
 
 
 
@@ -21,7 +22,9 @@ const router = createBrowserRouter(
       <Route index element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path="portfolio" element={<Portfolio />} />
-      <Route path="hire" element={<Hire />} />
+      <Route path="hire" element={<Hire/>}  >
+        <Route path="contact" element={<Contact/>} />
+      </Route>
     </Route>
   )
 );

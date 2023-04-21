@@ -1,0 +1,56 @@
+.about{
+    margin-top: 80px;
+    margin-left: 5%;
+    position: relative;
+}
+
+.about h1{
+    font-weight: 700;
+}
+
+.about p{
+    font-weight: 400;
+}
+
+.about hr{
+    background: #c01919;
+    height: 7px;
+    width: 40%;
+    position: absolute;
+    top: 22%;
+    left: 4%;
+    
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    position: relative;
+    margin-top: 150px;
+}
+
+.vec{
+    position: absolute;
+    left: 38%;
+    height: 30px;
+    width: 13px!important;
+    top: 19px;
+}
+
+
+.icons img{
+  width: 50px;
+
+}
+
+.about-me{
+    margin-top: 150px;
+    position: relative;
+}
+
+.about-me img{
+    height: 270px;
+    position: absolute;
+    left: 20%;
+}
