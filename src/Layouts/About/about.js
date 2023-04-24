@@ -32,6 +32,7 @@ function about() {
         <img src={html} alt=" html_logo" />
       </div>
 
+     
       
     </div>
   );
